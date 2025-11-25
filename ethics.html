@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Use of AI</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-brain me-2"></i>GenAI Guide
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ethics.html">Ethics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="article.html">AI in Dev Work</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header bg-navy text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <i class="fas fa-balance-scale fa-4x mb-4"></i>
+                    <h1 class="display-4 fw-bold mb-3">Ethical Use of AI</h1>
+                    <p class="lead">Guidelines for responsible and ethical AI usage in education and beyond</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="mb-5">
+                        <h2 class="text-navy mb-4">Why Ethics Matter in AI</h2>
+                        <p class="lead">As AI becomes increasingly integrated into our daily lives, understanding and
+                            practicing ethical AI use is crucial. Ethical considerations ensure that AI serves humanity
+                            positively while minimizing potential harms.</p>
+                    </div>
+                    <ul class="nav nav-tabs mb-4" id="ethicsTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="academe-tab" data-bs-toggle="tab"
+                                data-bs-target="#academe" type="button">
+                                <i class="fas fa-university me-2"></i>Academic Use
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="plagiarism-tab" data-bs-toggle="tab"
+                                data-bs-target="#plagiarism" type="button">
+                                <i class="fas fa-copy me-2"></i>Plagiarism
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="accuracy-tab" data-bs-toggle="tab" data-bs-target="#accuracy"
+                                type="button">
+                                <i class="fas fa-check-double me-2"></i>Accuracy
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="bias-tab" data-bs-toggle="tab" data-bs-target="#bias"
+                                type="button">
+                                <i class="fas fa-balance-scale-right me-2"></i>Bias
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="guidelines-tab" data-bs-toggle="tab"
+                                data-bs-target="#guidelines" type="button">
+                                <i class="fas fa-list-check me-2"></i>Guidelines
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="ethicsTabContent">
+
+                        <div class="tab-pane fade show active" id="academe" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body p-4">
+                                    <h3 class="text-navy mb-4"><i class="fas fa-university me-2"></i>Responsible Use in
+                                        Academia</h3>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">Understanding Academic Integrity</h5>
+                                        <p>Academic integrity means conducting scholarly work honestly, responsibly, and
+                                            ethically. When using AI in academic settings, students and researchers must
+                                            maintain these principles while leveraging technology appropriately.</p>
+                                    </div>
+
+                                    <div class="row g-4 mb-4">
+                                        <div class="col-md-6">
+                                            <div
+                                                class="ethics-card p-3 bg-success bg-opacity-10 border-start border-4 border-success">
+                                                <h6 class="text-success"><i
+                                                        class="fas fa-check-circle me-2"></i>Appropriate Uses</h6>
+                                                <ul class="mb-0">
+                                                    <li>Brainstorming and idea generation</li>
+                                                    <li>Understanding complex concepts</li>
+                                                    <li>Grammar and language improvement</li>
+                                                    <li>Research assistance and literature review</li>
+                                                    <li>Coding help and debugging</li>
+                                                    <li>Learning new skills and techniques</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div
+                                                class="ethics-card p-3 bg-danger bg-opacity-10 border-start border-4 border-danger">
+                                                <h6 class="text-danger"><i
+                                                        class="fas fa-times-circle me-2"></i>Inappropriate Uses</h6>
+                                                <ul class="mb-0">
+                                                    <li>Submitting AI-generated work as your own</li>
+                                                    <li>Using AI for exams without permission</li>
+                                                    <li>Bypassing learning objectives</li>
+                                                    <li>Generating entire assignments</li>
+                                                    <li>Avoiding critical thinking development</li>
+                                                    <li>Violating institutional policies</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="alert alert-info">
+                                        <h6 class="alert-heading"><i class="fas fa-lightbulb me-2"></i>Best Practice
+                                        </h6>
+                                        <p class="mb-0">Always check your institution's AI policy and ask your
+                                            instructors about acceptable AI use for specific assignments. When in doubt,
+                                            transparency is key—disclose your AI usage and seek guidance.</p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">The Learning Paradox</h5>
+                                        <p>While AI can help you complete tasks faster, the goal of education is to
+                                            develop your skills, not just produce outputs. Over-reliance on AI can:</p>
+                                        <ul>
+                                            <li>Prevent development of critical thinking skills</li>
+                                            <li>Reduce problem-solving abilities</li>
+                                            <li>Limit deep understanding of subjects</li>
+                                            <li>Decrease retention of knowledge</li>
+                                            <li>Hinder creativity and original thought</li>
+                                        </ul>
+                                        <p class="mb-0"><strong>Remember:</strong> AI should be a learning aid, not a
+                                            learning replacement.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="plagiarism" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body p-4">
+                                    <h3 class="text-navy mb-4"><i class="fas fa-copy me-2"></i>Avoiding Plagiarism and
+                                        Misuse</h3>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">What Constitutes AI Plagiarism?</h5>
+                                        <p>AI plagiarism occurs when you present AI-generated content as your own
+                                            original work without proper acknowledgment or when prohibited by assignment
+                                            guidelines.</p>
+                                    </div>
+
+                                    <div class="row g-4 mb-4">
+                                        <div class="col-12">
+                                            <div class="plagiarism-scenario p-4 bg-light rounded">
+                                                <h6 class="text-danger"><i
+                                                        class="fas fa-exclamation-triangle me-2"></i>Scenario 1: Direct
+                                                    Copying</h6>
+                                                <p><strong>Violation:</strong> Asking AI to write your essay and
+                                                    submitting it without changes.</p>
+                                                <p class="text-success mb-0"><strong>Ethical Alternative:</strong> Use
+                                                    AI to understand the topic, then write the essay in your own words
+                                                    based on your understanding.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="plagiarism-scenario p-4 bg-light rounded">
+                                                <h6 class="text-danger"><i
+                                                        class="fas fa-exclamation-triangle me-2"></i>Scenario 2: Minor
+                                                    Modifications</h6>
+                                                <p><strong>Violation:</strong> Making small edits to AI-generated text
+                                                    and claiming it as your work.</p>
+                                                <p class="text-success mb-0"><strong>Ethical Alternative:</strong> Use
+                                                    AI-generated content as a reference or starting point, but develop
+                                                    your own analysis and arguments.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="plagiarism-scenario p-4 bg-light rounded">
+                                                <h6 class="text-danger"><i
+                                                        class="fas fa-exclamation-triangle me-2"></i>Scenario 3:
+                                                    Undisclosed Assistance</h6>
+                                                <p><strong>Violation:</strong> Using AI for significant portions of your
+                                                    work without disclosure when required.</p>
+                                                <p class="text-success mb-0"><strong>Ethical Alternative:</strong>
+                                                    Clearly cite AI usage according to your institution's citation
+                                                    guidelines.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">How to Properly Cite AI Usage</h5>
+                                        <p>Different citation styles have different approaches. Here are general
+                                            guidelines:</p>
+                                        <div class="citation-example p-3 bg-info bg-opacity-10 rounded mb-3">
+                                            <strong>APA Style Example:</strong><br>
+                                            <code>OpenAI. (2024). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/chat</code>
+                                        </div>
+                                        <div class="citation-example p-3 bg-info bg-opacity-10 rounded mb-3">
+                                            <strong>MLA Style Example:</strong><br>
+                                            <code>"Prompt text." ChatGPT, 14 Mar. version, OpenAI, 20 Nov. 2024, chat.openai.com/chat.</code>
+                                        </div>
+                                        <p class="mb-0">Always include: the AI tool name, version, date of use, and the
+                                            prompt or query you used.</p>
+                                    </div>
+
+                                    <div class="alert alert-warning">
+                                        <h6 class="alert-heading"><i class="fas fa-shield-alt me-2"></i>Consequences of
+                                            AI Plagiarism</h6>
+                                        <ul class="mb-0">
+                                            <li>Academic penalties (failing grades, suspension, expulsion)</li>
+                                            <li>Damage to academic reputation</li>
+                                            <li>Loss of trust from instructors and peers</li>
+                                            <li>Missed learning opportunities</li>
+                                            <li>Potential career implications</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="accuracy" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body p-4">
+                                    <h3 class="text-navy mb-4"><i class="fas fa-check-double me-2"></i>Accuracy and
+                                        Verification of AI Outputs</h3>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">The Hallucination Problem</h5>
+                                        <p>AI models can generate information that sounds authoritative and correct but
+                                            is actually false or misleading. This is called "hallucination." AI doesn't
+                                            "know" facts—it predicts patterns based on training data.</p>
+                                    </div>
+
+                                    <div class="row g-4 mb-4">
+                                        <div class="col-md-6">
+                                            <div class="accuracy-card p-3 border border-warning rounded">
+                                                <h6 class="text-warning"><i
+                                                        class="fas fa-exclamation-circle me-2"></i>Common Accuracy
+                                                    Issues</h6>
+                                                <ul class="mb-0">
+                                                    <li>Fabricated citations and references</li>
+                                                    <li>Incorrect statistical data</li>
+                                                    <li>Outdated information</li>
+                                                    <li>Misattributed quotes</li>
+                                                    <li>Logical inconsistencies</li>
+                                                    <li>Oversimplified explanations</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="accuracy-card p-3 border border-success rounded">
+                                                <h6 class="text-success"><i
+                                                        class="fas fa-check-circle me-2"></i>Verification Strategies
+                                                </h6>
+                                                <ul class="mb-0">
+                                                    <li>Cross-reference with reliable sources</li>
+                                                    <li>Check citations independently</li>
+                                                    <li>Consult subject matter experts</li>
+                                                    <li>Use multiple AI tools for comparison</li>
+                                                    <li>Verify dates and current events</li>
+                                                    <li>Apply critical thinking</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">Critical Evaluation Framework</h5>
+                                        <p>Always evaluate AI outputs using these questions:</p>
+                                        <ol>
+                                            <li><strong>Source Verification:</strong> Can I verify this information from
+                                                credible sources?</li>
+                                            <li><strong>Logical Consistency:</strong> Does this make sense? Are there
+                                                contradictions?</li>
+                                            <li><strong>Expertise Required:</strong> Does this topic require specialized
+                                                knowledge that AI might lack?</li>
+                                            <li><strong>Recency:</strong> Is this information current and up-to-date?
+                                            </li>
+                                            <li><strong>Bias Check:</strong> Could this information reflect biases in
+                                                the training data?</li>
+                                            <li><strong>Context Awareness:</strong> Does the AI understand the full
+                                                context of my question?</li>
+                                        </ol>
+                                    </div>
+
+                                    <div class="alert alert-danger">
+                                        <h6 class="alert-heading"><i class="fas fa-ban me-2"></i>High-Risk Areas</h6>
+                                        <p>Exercise extreme caution when using AI for:</p>
+                                        <ul class="mb-0">
+                                            <li><strong>Medical advice:</strong> Always consult healthcare professionals
+                                            </li>
+                                            <li><strong>Legal guidance:</strong> Seek qualified legal counsel</li>
+                                            <li><strong>Financial decisions:</strong> Consult financial advisors</li>
+                                            <li><strong>Safety-critical information:</strong> Verify with authoritative
+                                                sources</li>
+                                            <li><strong>Current events:</strong> Check recent, reliable news sources
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="verification-tips p-4 bg-light rounded">
+                                        <h6 class="text-navy"><i class="fas fa-lightbulb me-2"></i>Pro Tips for
+                                            Verification</h6>
+                                        <ul class="mb-0">
+                                            <li>Use academic databases (Google Scholar, JSTOR) for research topics</li>
+                                            <li>Check government and institutional websites for official data</li>
+                                            <li>Consult peer-reviewed journals for scientific information</li>
+                                            <li>Use fact-checking websites for controversial claims</li>
+                                            <li>When in doubt, ask your instructor or a subject expert</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="bias" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body p-4">
+                                    <h3 class="text-navy mb-4"><i class="fas fa-balance-scale-right me-2"></i>Bias and
+                                        Fairness in AI</h3>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">Understanding AI Bias</h5>
+                                        <p>AI systems learn from data created by humans, which means they can inherit
+                                            and amplify human biases. These biases can affect outputs in subtle or
+                                            obvious ways, potentially perpetuating stereotypes and discrimination.</p>
+                                    </div>
+
+                                    <div class="row g-4 mb-4">
+                                        <div class="col-md-6">
+                                            <div class="bias-card p-3 bg-warning bg-opacity-10 rounded">
+                                                <h6 class="text-navy"><i class="fas fa-users me-2"></i>Types of Bias
+                                                </h6>
+                                                <ul class="mb-0">
+                                                    <li><strong>Gender Bias:</strong> Stereotypical associations with
+                                                        gender roles</li>
+                                                    <li><strong>Racial Bias:</strong> Discriminatory patterns based on
+                                                        race or ethnicity</li>
+                                                    <li><strong>Cultural Bias:</strong> Western-centric or culturally
+                                                        insensitive outputs</li>
+                                                    <li><strong>Socioeconomic Bias:</strong> Assumptions based on
+                                                        economic status</li>
+                                                    <li><strong>Age Bias:</strong> Stereotypes about different age
+                                                        groups</li>
+                                                    <li><strong>Confirmation Bias:</strong> Reinforcing existing beliefs
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="bias-card p-3 bg-info bg-opacity-10 rounded">
+                                                <h6 class="text-navy"><i class="fas fa-eye me-2"></i>Recognizing Bias
+                                                </h6>
+                                                <ul class="mb-0">
+                                                    <li>Stereotypical language or assumptions</li>
+                                                    <li>Lack of diverse perspectives</li>
+                                                    <li>Unequal representation</li>
+                                                    <li>Culturally insensitive content</li>
+                                                    <li>Oversimplified complex social issues</li>
+                                                    <li>Discriminatory recommendations</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">Examples of AI Bias in Practice</h5>
+                                        <div class="example-card p-3 mb-3 border-start border-4 border-danger">
+                                            <h6 class="text-danger">Example 1: Career Suggestions</h6>
+                                            <p class="mb-0"><strong>Biased Output:</strong> AI suggesting nursing for
+                                                women and engineering for men based on gender stereotypes rather than
+                                                individual interests and abilities.</p>
+                                        </div>
+                                        <div class="example-card p-3 mb-3 border-start border-4 border-danger">
+                                            <h6 class="text-danger">Example 2: Image Generation</h6>
+                                            <p class="mb-0"><strong>Biased Output:</strong> When asked to generate
+                                                images of "a CEO" or "a doctor," AI predominantly creating images of
+                                                white males, reflecting historical biases in training data.</p>
+                                        </div>
+                                        <div class="example-card p-3 mb-3 border-start border-4 border-danger">
+                                            <h6 class="text-danger">Example 3: Language Translation</h6>
+                                            <p class="mb-0"><strong>Biased Output:</strong> Translating gender-neutral
+                                                pronouns into gendered languages based on stereotypical job
+                                                associations.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">Mitigating Bias in Your AI Use</h5>
+                                        <ol>
+                                            <li><strong>Be Aware:</strong> Recognize that bias exists in AI systems</li>
+                                            <li><strong>Question Outputs:</strong> Critically evaluate AI responses for
+                                                stereotypes</li>
+                                            <li><strong>Diverse Prompts:</strong> Frame questions to encourage diverse
+                                                perspectives</li>
+                                            <li><strong>Challenge Stereotypes:</strong> Point out biased responses and
+                                                request alternatives</li>
+                                            <li><strong>Seek Multiple Sources:</strong> Don't rely solely on AI for
+                                                important decisions</li>
+                                            <li><strong>Provide Feedback:</strong> Report biased outputs to platform
+                                                developers</li>
+                                            <li><strong>Educate Others:</strong> Share awareness about AI bias with
+                                                peers</li>
+                                        </ol>
+                                    </div>
+
+                                    <div class="alert alert-success">
+                                        <h6 class="alert-heading"><i class="fas fa-hands-helping me-2"></i>Promoting
+                                            Fairness</h6>
+                                        <p class="mb-0">As AI users, we have a responsibility to use these tools in ways
+                                            that promote fairness and inclusion. This means being mindful of bias,
+                                            advocating for more equitable AI systems, and using AI in ways that respect
+                                            human diversity and dignity.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="guidelines" role="tabpanel">
+                            <div class="card border-0 shadow-sm">
+                                <div class="card-body p-4">
+                                    <h3 class="text-navy mb-4"><i class="fas fa-list-check me-2"></i>Recommended
+                                        Guidelines for Ethical AI Use</h3>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">Core Principles</h5>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <div class="principle-card p-3 border border-primary rounded">
+                                                    <h6 class="text-primary"><i class="fas fa-heart me-2"></i>1.
+                                                        Transparency</h6>
+                                                    <p class="small mb-0">Be open about your AI usage. Disclose when and
+                                                        how you use AI tools in your work.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="principle-card p-3 border border-primary rounded">
+                                                    <h6 class="text-primary"><i class="fas fa-user-shield me-2"></i>2.
+                                                        Accountability</h6>
+                                                    <p class="small mb-0">Take responsibility for the content you
+                                                        submit, even if AI assisted in creating it.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="principle-card p-3 border border-primary rounded">
+                                                    <h6 class="text-primary"><i class="fas fa-brain me-2"></i>3.
+                                                        Critical Thinking</h6>
+                                                    <p class="small mb-0">Don't accept AI outputs at face value.
+                                                        Evaluate, verify, and think critically.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="principle-card p-3 border border-primary rounded">
+                                                    <h6 class="text-primary"><i class="fas fa-users me-2"></i>4. Respect
+                                                        for Others</h6>
+                                                    <p class="small mb-0">Consider how AI use affects others and
+                                                        society. Avoid harmful applications.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="principle-card p-3 border border-primary rounded">
+                                                    <h6 class="text-primary"><i class="fas fa-book me-2"></i>5.
+                                                        Continuous Learning</h6>
+                                                    <p class="small mb-0">Use AI to enhance learning, not replace it.
+                                                        Focus on skill development.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="principle-card p-3 border border-primary rounded">
+                                                    <h6 class="text-primary"><i class="fas fa-lock me-2"></i>6. Privacy
+                                                        Protection</h6>
+                                                    <p class="small mb-0">Never share sensitive personal or confidential
+                                                        information with AI tools.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">Practical Guidelines Checklist</h5>
+                                        <div class="checklist p-4 bg-light rounded">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" id="check1">
+                                                <label class="form-check-label" for="check1">
+                                                    <strong>Before Using AI:</strong> Check if AI use is permitted for
+                                                    your specific task
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" id="check2">
+                                                <label class="form-check-label" for="check2">
+                                                    <strong>During Use:</strong> Keep records of your prompts and AI
+                                                    interactions
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" id="check3">
+                                                <label class="form-check-label" for="check3">
+                                                    <strong>Content Review:</strong> Verify all facts, citations, and
+                                                    claims
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" id="check4">
+                                                <label class="form-check-label" for="check4">
+                                                    <strong>Bias Check:</strong> Review outputs for stereotypes and
+                                                    discrimination
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" id="check5">
+                                                <label class="form-check-label" for="check5">
+                                                    <strong>Personalization:</strong> Add your own analysis, insights,
+                                                    and voice
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" id="check6">
+                                                <label class="form-check-label" for="check6">
+                                                    <strong>Citation:</strong> Properly cite AI usage according to
+                                                    required format
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" id="check7">
+                                                <label class="form-check-label" for="check7">
+                                                    <strong>Privacy:</strong> Ensure no sensitive information was shared
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="check8">
+                                                <label class="form-check-label" for="check8">
+                                                    <strong>Final Review:</strong> Can you explain and defend all
+                                                    content in your submission?
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="text-navy">The "Would I Be Proud?" Test</h5>
+                                        <div class="pride-test p-4 border border-info rounded bg-info bg-opacity-10">
+                                            <p>Before submitting AI-assisted work, ask yourself:</p>
+                                            <ul>
+                                                <li>Would I be proud to explain my process to my instructor?</li>
+                                                <li>Did I learn something meaningful through this process?</li>
+                                                <li>Can I confidently discuss and defend this work?</li>
+                                                <li>Does this work represent my understanding and effort?</li>
+                                                <li>Would I feel comfortable if my process was made public?</li>
+                                            </ul>
+                                            <p class="mb-0"><strong>If you answered "no" to any of these questions,
+                                                    reconsider your approach.</strong></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="alert alert-primary">
+                                        <h6 class="alert-heading"><i class="fas fa-quote-left me-2"></i>Remember</h6>
+                                        <p class="mb-0 fst-italic">"The goal of education is not to produce perfect
+                                            assignments, but to develop capable, ethical, and thoughtful individuals.
+                                            Use AI as a tool for growth, not a shortcut to avoid learning."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="mt-5 p-4 bg-light rounded">
+                        <h3 class="text-navy mb-4"><i class="fas fa-book me-2"></i>References</h3>
+                        <ol class="references-list">
+                            <li>EDUCAUSE. (2024). "2024 EDUCAUSE Action Plan: AI policies and guidelines."
+                                <a href="https://library.educause.edu/resources/2024/5/2024-educause-action-plan-ai-policies-and-guidelines"
+                                    target="_blank">https://library.educause.edu/resources/2024/5/2024-educause-action-plan-ai-policies-and-guidelines
+                                </a>
+                            </li>
+                            <li>Knoechel, T., Schweizer, K., Acar, O. A., Akil, A. M., Al-Hoorie, A. H., Buehler, F., …
+                                & Aczel, B. (2024). Principles for responsible AI usage in research.
+                                <a href="https://osf.io/g3m5f" target="_blank">https://osf.io/g3m5f
+                                </a>
+                            </li>
+                            <li>Foltynek, T., Bjelobaba, S., Glendinning, I., Khan, Z. R., Santos, R., Pavletic, P.,
+                                &amp; Kravjar, J. (2023). Ethical AI in education." Education and Information
+                                Technologies, 23, 123–140.
+                                <a href="https://doi.org/10.1007/s40979-023-00133-4"
+                                    target="_blank">https://doi.org/10.1007/s40979-023-00133-4
+                                </a>
+                            </li>
+                            <li>European University Institute. (2024). Guidelines for the responsible use of artificial
+                                intelligence for research.
+                                <a href="https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/ResearchEthics/2024.06-Ethics-Commitee-EUI-GENAI-DIGITAL.pdf"
+                                    target="_blank">https://www.eui.eu/Documents/ServicesAdmin/DeanOfStudies/ResearchEthics/2024.06-Ethics-Commitee-EUI-GENAI-DIGITAL.pdf\
+                                </a>
+                            </li>
+                            <li>University of York. (2024). Responsible AI use in research (Policy and best-practice
+                                document).
+                                <a href="https://www.york.ac.uk/staff/research/governance/research-policies/generative-ai/"
+                                    target="_blank">https://www.york.ac.uk/staff/research/governance/research-policies/generative-ai/
+                                </a>
+                            </li>
+                            <li>Nature. (2024). AI and ethics: Investigating the first policy responses of
+                                higher-education institutions. Nature Communications, 15, 3526.
+                                <a href="https://www.nature.com/articles/s41599-024-03526-z"
+                                    target="_blank">https://www.nature.com/articles/s41599-024-03526-z
+                                </a>
+                            </li>
+                            <li>TEQSA. (2023). Generative AI guidelines for teaching staff and students.
+                                <a href="https://www.teqsa.gov.au/sites/default/files/2023-04/aain-generative-ai-guidelines.pdf"
+                                    target="_blank">https://www.teqsa.gov.au/sites/default/files/2023-04/aain-generative-ai-guidelines.pdf
+                                </a>
+                            </li>
+
+                            <li>Eacersall, D., et al. (2024). Navigating ethical challenges in generative AI-enhanced
+                                research: The ETHICAL framework. arXiv preprint arXiv:2501.09021.
+                                <a href="https://arxiv.org/abs/2501.09021"
+                                    target="_blank">https://arxiv.org/abs/2501.09021
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 GenAI FAQs & Ethical Use of AI. Educational Purposes.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/35006a4e87.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

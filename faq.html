@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI FAQs</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-brain me-2"></i>GenAI Guide
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="faq.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ethics.html">Ethics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="article.html">AI in Dev Work</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header bg-navy text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <i class="fas fa-question-circle fa-4x mb-4"></i>
+                    <h1 class="display-4 fw-bold mb-3">Frequently Asked Questions</h1>
+                    <p class="lead">Everything you need to know about Generative AI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1">
+                                    <i class="fas fa-robot me-3 text-navy"></i>
+                                    <strong>What is Generative AI?</strong>
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Generative AI is a type of artificial intelligence technology that can create new
+                                        content, including text, images, audio, video, code, and other media. Unlike
+                                        traditional AI systems that analyze and classify existing data, generative AI
+                                        learns patterns from training data and uses that knowledge to generate original
+                                        content.</p>
+                                    <p class="mb-0">These systems use advanced machine learning models, particularly
+                                        deep learning architectures like transformers and neural networks, to understand
+                                        context, patterns, and relationships in data, enabling them to produce
+                                        human-like outputs.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2">
+                                    <i class="fas fa-cogs me-3 text-navy"></i>
+                                    <strong>How does Generative AI work?</strong>
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p><strong>Training Phase:</strong> Generative AI models are trained on massive
+                                        datasets containing billions of examples. During training, the model learns
+                                        patterns, relationships, and structures in the data.</p>
+                                    <p><strong>Neural Networks:</strong> Most generative AI uses deep neural networks
+                                        with multiple layers that process information hierarchically, similar to how the
+                                        human brain works.</p>
+                                    <p><strong>Pattern Recognition:</strong> The model identifies patterns in the
+                                        training data, learning statistical relationships between different elements.
+                                    </p>
+                                    <p><strong>Generation Process:</strong> When given a prompt or input, the model uses
+                                        its learned patterns to predict and generate new content that follows similar
+                                        patterns to its training data.</p>
+                                    <p class="mb-0"><strong>Fine-tuning:</strong> Models can be further refined through
+                                        techniques like reinforcement learning from human feedback (RLHF) to improve
+                                        output quality and alignment with human preferences.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3">
+                                    <i class="fas fa-tools me-3 text-navy"></i>
+                                    <strong>What are examples of GenAI tools?</strong>
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="tool-category p-3 bg-light rounded">
+                                                <h6 class="text-navy"><i class="fas fa-comment me-2"></i>Text Generation
+                                                </h6>
+                                                <ul class="mb-0">
+                                                    <li>ChatGPT (OpenAI)</li>
+                                                    <li>Claude (Anthropic)</li>
+                                                    <li>Gemini (Google)</li>
+                                                    <li>Copilot (Microsoft)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="tool-category p-3 bg-light rounded">
+                                                <h6 class="text-navy"><i class="fas fa-image me-2"></i>Image Generation
+                                                </h6>
+                                                <ul class="mb-0">
+                                                    <li>DALL-E (OpenAI)</li>
+                                                    <li>Midjourney</li>
+                                                    <li>Stable Diffusion</li>
+                                                    <li>Adobe Firefly</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="tool-category p-3 bg-light rounded">
+                                                <h6 class="text-navy"><i class="fas fa-code me-2"></i>Code Generation
+                                                </h6>
+                                                <ul class="mb-0">
+                                                    <li>GitHub Copilot</li>
+                                                    <li>Amazon CodeWhisperer</li>
+                                                    <li>Tabnine</li>
+                                                    <li>Replit Ghostwriter</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="tool-category p-3 bg-light rounded">
+                                                <h6 class="text-navy"><i class="fas fa-video me-2"></i>Video & Audio
+                                                </h6>
+                                                <ul class="mb-0">
+                                                    <li>Runway ML</li>
+                                                    <li>Synthesia</li>
+                                                    <li>ElevenLabs (voice)</li>
+                                                    <li>Murf AI (voice)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4">
+                                    <i class="fas fa-star me-3 text-navy"></i>
+                                    <strong>What can GenAI do? (Strengths)</strong>
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i class="fas fa-check-circle me-2"></i>Content
+                                                    Creation</h6>
+                                                <p class="small mb-0">Generate articles, stories, marketing copy, and
+                                                    creative writing quickly and efficiently.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i class="fas fa-check-circle me-2"></i>Code
+                                                    Assistance</h6>
+                                                <p class="small mb-0">Help developers write, debug, and optimize code
+                                                    across multiple programming languages.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i class="fas fa-check-circle me-2"></i>Learning &
+                                                    Research</h6>
+                                                <p class="small mb-0">Explain complex concepts, summarize information,
+                                                    and provide educational assistance.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i class="fas fa-check-circle me-2"></i>Creative
+                                                    Design</h6>
+                                                <p class="small mb-0">Generate unique images, logos, and visual content
+                                                    for various purposes.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i
+                                                        class="fas fa-check-circle me-2"></i>Translation & Localization
+                                                </h6>
+                                                <p class="small mb-0">Translate text between languages and adapt content
+                                                    for different cultures.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i class="fas fa-check-circle me-2"></i>Data
+                                                    Analysis</h6>
+                                                <p class="small mb-0">Process and analyze large amounts of data to
+                                                    extract insights and patterns.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i
+                                                        class="fas fa-check-circle me-2"></i>Personalization</h6>
+                                                <p class="small mb-0">Create customized content and recommendations
+                                                    based on user preferences.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="strength-card p-3 border-start border-4 border-success">
+                                                <h6 class="text-navy"><i class="fas fa-check-circle me-2"></i>Automation
+                                                </h6>
+                                                <p class="small mb-0">Automate repetitive tasks like email responses,
+                                                    report generation, and data entry.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5">
+                                    <i class="fas fa-exclamation-triangle me-3 text-navy"></i>
+                                    <strong>What are the limitations and risks of GenAI?</strong>
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i
+                                                        class="fas fa-times-circle me-2"></i>Hallucinations</h6>
+                                                <p class="small mb-0">AI can generate false or misleading information
+                                                    that sounds convincing but is factually incorrect.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i class="fas fa-times-circle me-2"></i>Bias &
+                                                    Discrimination</h6>
+                                                <p class="small mb-0">Models can perpetuate biases present in training
+                                                    data, leading to unfair or discriminatory outputs.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i class="fas fa-times-circle me-2"></i>Privacy
+                                                    Concerns</h6>
+                                                <p class="small mb-0">Risk of exposing sensitive information if personal
+                                                    data is used in prompts or training.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i class="fas fa-times-circle me-2"></i>Copyright
+                                                    Issues</h6>
+                                                <p class="small mb-0">Uncertainty about ownership and copyright of
+                                                    AI-generated content and use of copyrighted training data.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i class="fas fa-times-circle me-2"></i>Lack of
+                                                    Understanding</h6>
+                                                <p class="small mb-0">AI doesn't truly understand context, emotions, or
+                                                    nuanced human experiences.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i class="fas fa-times-circle me-2"></i>Dependency
+                                                    & Skill Atrophy</h6>
+                                                <p class="small mb-0">Over-reliance on AI may lead to decreased critical
+                                                    thinking and problem-solving skills.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i class="fas fa-times-circle me-2"></i>Security
+                                                    Risks</h6>
+                                                <p class="small mb-0">Potential for misuse in creating deepfakes,
+                                                    phishing content, or malicious code.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="risk-card p-3 border-start border-4 border-danger">
+                                                <h6 class="text-navy"><i
+                                                        class="fas fa-times-circle me-2"></i>Environmental Impact</h6>
+                                                <p class="small mb-0">Training and running large AI models requires
+                                                    significant computational resources and energy.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq6">
+                                    <i class="fas fa-graduation-cap me-3 text-navy"></i>
+                                    <strong>Can students use GenAI for homework and assignments?</strong>
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>The answer depends on your institution's policies and the specific assignment
+                                        guidelines. Here are key considerations:</p>
+                                    <ul>
+                                        <li><strong>Check Your School's Policy:</strong> Many institutions have specific
+                                            guidelines about AI use in academic work.</li>
+                                        <li><strong>Ask Your Instructor:</strong> Always clarify whether AI assistance
+                                            is permitted for specific assignments.</li>
+                                        <li><strong>Use as a Learning Tool:</strong> AI can help explain concepts,
+                                            provide examples, or assist with brainstorming, but shouldn't replace your
+                                            own thinking and learning.</li>
+                                        <li><strong>Cite AI Usage:</strong> If permitted, properly acknowledge when AI
+                                            tools were used in your work.</li>
+                                        <li><strong>Maintain Academic Integrity:</strong> Submitting AI-generated work
+                                            as your own without permission is plagiarism.</li>
+                                    </ul>
+                                    <p class="mb-0">The goal of education is to develop your skills and understanding.
+                                        Use AI to enhance your learning, not to bypass it.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq7">
+                                    <i class="fas fa-brain me-3 text-navy"></i>
+                                    <strong>Will GenAI replace human jobs?</strong>
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>GenAI will likely transform jobs rather than completely replace them. Here's a
+                                        balanced perspective:</p>
+                                    <div class="alert alert-info">
+                                        <strong>Jobs Most Affected:</strong> Roles involving routine, repetitive tasks
+                                        like data entry, basic content creation, and simple customer service may see
+                                        significant automation.
+                                    </div>
+                                    <div class="alert alert-success">
+                                        <strong>Jobs Enhanced:</strong> Many professions will use AI as a tool to
+                                        increase productivity and focus on higher-value work requiring creativity,
+                                        critical thinking, emotional intelligence, and complex problem-solving.
+                                    </div>
+                                    <div class="alert alert-warning">
+                                        <strong>New Opportunities:</strong> AI is creating new job categories including
+                                        AI trainers, prompt engineers, AI ethicists, and AI system auditors.
+                                    </div>
+                                    <p class="mb-0"><strong>Key Takeaway:</strong> The future workplace will likely
+                                        require humans and AI working together, with humans focusing on tasks requiring
+                                        judgment, creativity, empathy, and strategic thinking.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq8">
+                                    <i class="fas fa-lock me-3 text-navy"></i>
+                                    <strong>Is my data safe when using GenAI tools?</strong>
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Data privacy varies by platform and how you use it. Important considerations:</p>
+                                    <ul>
+                                        <li><strong>Read Privacy Policies:</strong> Understand how each platform handles
+                                            your data.</li>
+                                        <li><strong>Avoid Sensitive Information:</strong> Never input personal,
+                                            confidential, or proprietary information into public AI tools.</li>
+                                        <li><strong>Training Data Concerns:</strong> Some platforms may use your inputs
+                                            to improve their models (though many now offer opt-out options).</li>
+                                        <li><strong>Enterprise vs. Free Versions:</strong> Paid enterprise versions
+                                            often have stronger privacy protections.</li>
+                                        <li><strong>Data Retention:</strong> Check how long platforms store your
+                                            conversation history and whether you can delete it.</li>
+                                    </ul>
+                                    <p class="mb-0"><strong>Best Practice:</strong> Treat AI chat interfaces like public
+                                        forums—only share information you'd be comfortable making public.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="mt-5 p-4 bg-light rounded">
+                        <h3 class="text-navy mb-4"><i class="fas fa-book me-2"></i>References</h3>
+                        <ol class="references-list">
+                            <li>ACM. (2024). Generative AI in computing education: A systematic literature review.
+                                <a href="https://doi.org/10.1145/3689187.3709614"
+                                    target="_blank">https://doi.org/10.1145/3689187.3709614
+                                </a>
+                            </li>
+                            <li>Hagendorff, T. (2024). Mapping the ethics of generative AI: A comprehensive scoping
+                                review. arXiv preprint arXiv:2402.08323.
+                                <a href="https://arxiv.org/abs/2402.08323"
+                                    target="_blank">https://arxiv.org/abs/2402.08323/
+                                </a>
+                            </li>
+                            <li>Li, D., Kalota, F., &amp; Raymond, L. R. (2024). The impact of generative AI on
+                                workplace productivity. NBER Working Paper No. 31161.
+                                <a href="https://www.nber.org/system/files/working_papers/w31161/w31161.pdf"
+                                    target="_blank">https://www.nber.org/system/files/working_papers/w31161/w31161.pdf
+                                </a>
+                            </li>
+                            <li>National Government Accountability Office. (2024). Generative artificial intelligence:
+                                Technologies and their commercial applications (GAO‑24‑106946).
+                                <a href="https://www.gao.gov/assets/gao-24-106946.pdf"
+                                    target="_blank">https://www.gao.gov/assets/gao-24-106946.pdf
+                                </a>
+                            </li>
+                            <li>University of Pittsburgh Teaching Resources. (n.d.). What is generative AI?
+                                <a href="https://teaching.pitt.edu/resources/what-is-generative-ai/"
+                                    target="_blank">https://teaching.pitt.edu/resources/what-is-generative-ai/
+                                </a>
+                            </li>
+                            <li>U.S. National Library of Medicine. (2024). Generative artificial intelligence.
+                                <a href="https://www.nnlm.gov/guides/data-thesaurus/generative-artificial-intelligence"
+                                    target="_blank">https://www.nnlm.gov/guides/data-thesaurus/generative-artificial-intelligence
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 GenAI FAQs & Ethical Use of AI. Educational Purposes.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/35006a4e87.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
