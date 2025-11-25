@@ -142,16 +142,16 @@ The website is ready to deploy to any static hosting service:
 ## Screenshots
 
 ### Landing/Home Page
-![Landing/Home Page](img/landing-hero.png)
+![Landing/Home Page](assets/img/landing-hero.png)
 
 ### FAQ Section
-![FAQ Section](img/faq-page.png)
+![FAQ Section](assets/img/faq-page.png)
 
 ### Ethical Use of AI Page
-![Ethical Use of AI Page](img/ethics-page.png)
+![Ethical Use of AI Page](assets/img/ethics-page.png)
 
 ### Analogy on the Use of AI in Dev Work
-![Analogy on the Use of AI in Dev Work](img/article-page.png)
+![Analogy on the Use of AI in Dev Work](assets/img/article-page.png)
 
 ## Academic Integrity Statement
 
