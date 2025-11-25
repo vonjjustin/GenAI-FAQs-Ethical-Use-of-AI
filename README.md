@@ -124,11 +124,17 @@ The website is ready to deploy to any static hosting service:
 - **Vercel**: Import from GitHub or upload directly at vercel.com
 
 ## Deployment Links
+- **Live Demo**: [https://vonjjustin.github.io/GenAI-FAQs-Ethical-Use-of-AI/](https://vonjjustin.github.io/GenAI-FAQs-Ethical-Use-of-AI/)
 - **Live Demo**: [gen-ai-faqs-ethical-use-of-ai.netlify.app](https://gen-ai-faqs-ethical-use-of-ai.netlify.app)
 - **Live Demo**: [gen-ai-faqs-ethical-use-of-ai.vercel.app](https://gen-ai-faqs-ethical-use-of-ai.vercel.app)
 
 ### Deployment Instructions:
-
+#### GitHub Pages:
+1. Push code to GitHub repository
+2. Go to repository Settings → Pages
+3. Select main branch as source
+4. Site will be available at `https://username.github.io/repository-name`
+   
 #### Netlify:
 1. Create account at netlify.com
 2. Drag and drop project folder or connect GitHub repo
