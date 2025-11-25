@@ -142,7 +142,7 @@ The website is ready to deploy to any static hosting service:
 ## Screenshots
 
 ### Landing/Home Page
-![Landing/Home Page](assets/img/landing-hero.png)
+![Landing/Home Page](assets/img/index-page.png)
 
 ### FAQ Section
 ![FAQ Section](assets/img/faq-page.png)
