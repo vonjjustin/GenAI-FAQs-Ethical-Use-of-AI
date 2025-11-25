@@ -158,7 +158,3 @@ The website is ready to deploy to any static hosting service:
 
 ### Analogy on the Use of AI in Dev Work
 ![Analogy on the Use of AI in Dev Work](assets/img/article-page.png)
-
-## Academic Integrity Statement
-
-This website was developed to educate users about ethical AI use. The content emphasizes the importance of academic integrity, proper citation, and responsible technology use. All information is sourced from reputable organizations and properly cited.
