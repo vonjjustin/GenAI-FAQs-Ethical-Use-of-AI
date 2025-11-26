@@ -7,37 +7,35 @@ This is a comprehensive, educational website designed to help students, research
 ## Features
 
 ### 🏠 Landing/Home Page (index.html)
-- Eye-catching title section with animated elements
 - Introduction to Generative AI
 - Quick navigation to all major sections
 - Feature cards highlighting key topics
-- Responsive design with navy blue theme
 
 ### ❓ FAQ Section (faq.html)
 - Comprehensive accordion-style FAQs covering:
   - What is Generative AI?
   - How does it work?
-  - Examples of GenAI tools (ChatGPT, DALL-E, Copilot, etc.)
+  - Examples of GenAI tools
   - Strengths and capabilities
   - Limitations and risks
   - Student usage guidelines
   - Job market impact
   - Data privacy concerns
-- Properly cited references from authoritative sources
+- Properly cited references
 
 ### ⚖️ Ethical Use of AI (ethics.html)
 - Tabbed interface covering five major topics:
-  1. **Academic Use**: Responsible use in education, appropriate vs. inappropriate uses
-  2. **Plagiarism**: Understanding AI plagiarism, citation guidelines, consequences
-  3. **Accuracy**: Verification strategies, critical evaluation framework, high-risk areas
-  4. **Bias**: Types of bias, recognition strategies, mitigation techniques
-  5. **Guidelines**: Core principles, practical checklist, ethical decision-making framework
+  1. **Academic Use**
+  2. **Plagiarism**
+  3. **Accuracy**
+  4. **Bias**
+  5. **Guidelines**
 - Real-world examples and scenarios
 - Interactive checklist for ethical AI use
-- Comprehensive references
+- Properly cited references
 
 ### 💻 Analogy on the Use of AI in Dev Work (article.html)
-- Thought-provoking analogy comparing wedding photographers using consumer tools to developers using AI
+- Analogy comparing wedding photographers using consumer tools to developers using AI
 - Critical analysis of "vibe coders" and AI-assisted development
 - Discussion of integrity, creativity, and skill level
 - Balanced perspective on tool usage vs. professional expertise
@@ -125,7 +123,6 @@ The website is ready to deploy to any static hosting service:
 
 ## Deployment Links
 - **Live Demo**: [https://vonjjustin.github.io/GenAI-FAQs-Ethical-Use-of-AI/](https://vonjjustin.github.io/GenAI-FAQs-Ethical-Use-of-AI/)
-- **Live Demo**: [gen-ai-faqs-ethical-use-of-ai.netlify.app](https://gen-ai-faqs-ethical-use-of-ai.netlify.app)
 - **Live Demo**: [gen-ai-faqs-ethical-use-of-ai.vercel.app](https://gen-ai-faqs-ethical-use-of-ai.vercel.app)
 
 ### Deployment Instructions:
@@ -134,11 +131,6 @@ The website is ready to deploy to any static hosting service:
 2. Go to repository Settings → Pages
 3. Select main branch as source
 4. Site will be available at `https://username.github.io/repository-name`
-   
-#### Netlify:
-1. Create account at netlify.com
-2. Drag and drop project folder or connect GitHub repo
-3. Site deployed instantly with custom URL
    
 #### Vercel:
 1. Create account at vercel.com
