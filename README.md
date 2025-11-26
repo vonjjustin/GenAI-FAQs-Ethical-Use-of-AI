@@ -35,7 +35,7 @@ This is a comprehensive, educational website designed to help students, research
 
 - **HTML5**: Semantic markup for all pages
 - **CSS3**: Custom styling with animations and transitions\
-- **Bootstrap 5.3.2**: Responsive grid system, components, and utilities
+- **Bootstrap 5.3.8**: Responsive grid system, components, and utilities
 - **Font Awesome 7.1.0**: Icons throughout the site
 
 ## Frameworks and Libraries
