@@ -1,5 +1,8 @@
 # GenAI FAQs & Ethical Use of AI
 
+- Submitted by: Von Justin L. Estayani
+- Section: ZC11
+
 ## Short Overview
 
 This is a comprehensive, educational website designed to help students, researchers, and general users understand Generative AI (GenAI), its capabilities, limitations, and ethical considerations. The website provides clear, accessible information about responsible AI use, particularly in academic and professional contexts.
