@@ -45,7 +45,6 @@ This is a comprehensive, educational website designed to help students, research
 
 - **HTML5**: Semantic markup for all pages
 - **CSS3**: Custom styling with animations and transitions\
-- **JavaScript**: Interactive features and animations
 - **Bootstrap 5.3.2**: Responsive grid system, components, and utilities
 - **Font Awesome 7.1.0**: Icons throughout the site
 
@@ -55,7 +54,6 @@ This is a comprehensive, educational website designed to help students, research
 |------------|---------|---------|
 | Bootstrap | 5.3.8 | Responsive framework, UI components |
 | Font Awesome | 7.1.0 | Icon library |
-| JavaScript | ES6+ | Interactive features, animations |
 | CSS3 | - | Custom styling, animations, transitions |
 
 ## File Structure
@@ -72,10 +70,6 @@ project-root/
 └── assets/
     ├── css/
     │   └── style.css       # Custom CSS styles
-    │
-    ├── js/
-    │   └── script.js       # Custom JavaScript
-    │
     └── img/                # Images (screenshots of the website)
 ```
 
