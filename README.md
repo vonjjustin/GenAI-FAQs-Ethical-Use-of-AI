@@ -12,15 +12,7 @@ This is a comprehensive, educational website designed to help students, research
 - Feature cards highlighting key topics
 
 ### ❓ FAQ Section (faq.html)
-- Comprehensive accordion-style FAQs covering:
-  - What is Generative AI?
-  - How does it work?
-  - Examples of GenAI tools
-  - Strengths and capabilities
-  - Limitations and risks
-  - Student usage guidelines
-  - Job market impact
-  - Data privacy concerns
+- Comprehensive accordion-style FAQs
 - Properly cited references
 
 ### ⚖️ Ethical Use of AI (ethics.html)
@@ -30,8 +22,6 @@ This is a comprehensive, educational website designed to help students, research
   3. **Accuracy**
   4. **Bias**
   5. **Guidelines**
-- Real-world examples and scenarios
-- Interactive checklist for ethical AI use
 - Properly cited references
 
 ### 💻 Analogy on the Use of AI in Dev Work (article.html)
@@ -81,28 +71,7 @@ project-root/
 3. Double-click or open `index.html` in any modern web browser (Chrome, Firefox, Safari, Edge)
 4. Navigate through the site using the top navigation menu
 
-### Option 2: Local Server (Recommended for Development)
-
-#### Using Python:
-```bash
-# Python 3
-cd project-folder
-python -m http.server 8000
-```
-Then open `http://localhost:8000` in your browser
-
-#### Using Node.js:
-```bash
-# Install http-server globally (one-time setup)
-npm install -g http-server
-
-# Run server in project folder
-cd project-folder
-http-server
-```
-Then open the provided local address in your browser
-
-#### Using VS Code Live Server:
+### Option 2: Using VS Code Live Server:
 1. Install "Live Server" extension in VS Code
 2. Right-click on `index.html`
 3. Select "Open with Live Server"
