@@ -63,7 +63,7 @@ project-root/
 └── assets/
     ├── css/
     │   └── style.css       # Custom CSS styles
-    └── img/                # Images (screenshots of the website)
+    └── img/                # Images (screenshots of the website and brain icon)
 ```
 
 ## How to Run the Project
