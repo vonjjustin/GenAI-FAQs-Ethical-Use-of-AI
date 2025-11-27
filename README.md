@@ -74,7 +74,7 @@ project-root/
 3. Double-click or open `index.html` in any modern web browser (Chrome, Firefox, Safari, Edge)
 4. Navigate through the site using the top navigation menu
 
-### Option 2: Using VS Code Live Server:
+### Option 2: Using VS Code Live Server
 1. Install "Live Server" extension in VS Code
 2. Right-click on `index.html`
 3. Select "Open with Live Server"
